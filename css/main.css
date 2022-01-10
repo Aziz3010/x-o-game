@@ -5,5 +5,50 @@
 }
 
 body {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1;    */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game {
+    /* background-color: greenyellow; */
+    width: 400px;
+    height: 430px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#game .head {
+    background-color: #eee;
+    height: 40px;
+    text-align: center;
+}
+
+#game .bottom {
+    background-color: #eee;
+    height: 20px;
+    text-align: center;
+}
+
+#game .boxes {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#game .boxes .box {
+    background-color: #fff;
+    width: calc(100% / 3 - 15px);
+    margin: 5px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
