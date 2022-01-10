@@ -27,6 +27,11 @@ body {
     text-align: center;
 }
 
+#game .head h2 span,
+#game .bottom h6 span {
+    color: rgb(180, 10, 214);
+}
+
 #game .bottom {
     background-color: #eee;
     height: 20px;
