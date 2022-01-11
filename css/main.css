@@ -30,6 +30,7 @@ body {
 #game .head h2 span,
 #game .bottom h6 span {
     color: rgb(180, 10, 214);
+    text-transform: uppercase;
 }
 
 #game .bottom {
@@ -56,4 +57,14 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    color: rgb(180, 10, 214);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 500ms;
+    user-select: none;
+}
+
+#game .boxes .box:hover {
+    background-color: #222;
 }
